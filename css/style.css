@@ -5,7 +5,6 @@ body {
 }
 
 a {
-  color: #2498f4;
   text-decoration: none;
 }
 
@@ -25,14 +24,12 @@ a:hover {
 .header a {
   display: inline-block;
   color: #fff;
-  padding: 15px 10px 0 0;
 }
 
-.logo {
-  border-right: 1px solid #ccc;
+.mini {
   color: #fff;
   font-size: 1.15em;
-  padding: 0 10px 0 0;
+  padding: 10px 10px 0 0;
 }
 
 /*NAVBAR*/
@@ -41,6 +38,24 @@ a:hover {
   background: url("../images/navbar_background.png") no-repeat;
   background-size: 100% 100%;
   min-height: 110px;
+}
+
+.sprite-customers {
+  background-image: url("../images/customer_spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 65px;
+  height: 44px;
+  background-position: -5px -5px;
+}
+
+.sprite-customers:hover {
+  background-image: url("../images/customer_spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 61px;
+  height: 43px;
+  background-position: -80px -5px;
 }
 
 /*DASHBOARD*/
@@ -248,38 +263,24 @@ form {
 
 /*CHECKBOXES*/
 
+input[type="checkbox"] {
+  display: none;
+}
+
 input[type="checkbox"] + label span {
   display: inline-block;
-  width: 24px;
-  height: 22px;
-  background: url(images/checkboxes_spritesheet.png) -5px -5px no-repeat;
+  width: 18px;
+  height: 18px;
+  background: url("../images/checkboxes_spritesheet.png") -39px -5px no-repeat;
   cursor: pointer;
 }
 
 input[type="checkbox"]:checked + label span {
-  display: block;
+  display: inline-block;
   width: 18px;
   height: 18px;
-  background: url(images/checkboxes_spritesheet.png) -39px -5px no-repeat;
+  background: url("../images/checkboxes_spritesheet.png") -5px -5px no-repeat;
 }
-
-/*.sprite-checkbox-selected {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-    width: 24px;
-    height: 22px;
-    background-position: -5px -5px;
-}
-
-.sprite-checkbox-unselected {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-    width: 18px;
-    height: 18px;
-    background-position: -39px -5px;
-}*/
 
 .facebook {
   background-color: #114570;
@@ -354,4 +355,17 @@ input[type="checkbox"]:checked + label span {
 
 .ad3 {
   width: 350px;
+}
+
+/*FOOTER*/
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+  }
+
+.footer-txt {
+  display: inline;
+  color: #777777;
+  padding: 0 0.4em 0 0.4em;
 }
