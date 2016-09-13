@@ -28,14 +28,14 @@
 <body>
 
 <!-- HEADER -->
-<nav class="header container-fluid">
+<div class="header container-fluid">
   <div class="header container">
     <div class="header">
-      <span class="logo">MINI of Raleigh</span>
-      <div class="headersprite sprite-header-spacer"></div>
-      <a href="#"><div class="headersprite sprite-header-question"></div></a>
-      <div class="headersprite sprite-header-spacer"></div>
-      <a href="#"><span class="headersprite sprite-header-gear"></span></a>
+      <div class="mini">MINI of Raleigh</div>
+      <div class="sprite-header-spacer"></div>
+      <a href="#"><div class="sprite-header-question"></div></a>
+      <div class="sprite-header-spacer"></div>
+      <a href="#"><span class="sprite-header-gear"></span></a>
     </div>
   </div>
 
@@ -43,7 +43,7 @@
   <div class="row navbar hidden-xs">
     <div class="col-md-3"></div>
     <div class="col-md-1"><a href="#"><div class="iconsprite sprite-dashboard"></div></a></div>
-    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-customers"></div></a></div>
+    <div class="col-md-1"><a href="#"><div class="sprite-customers"></div></a></div>
     <div class="col-md-1"><a href="#"><div class="iconsprite sprite-messages"></div></a></div>
     <div class="col-md-1"><a href="#"><div class="iconsprite sprite-promotions"></div></a></div>
     <div class="col-md-1"><a href="#"><div class="iconsprite sprite-reports"></div></a></div>
@@ -51,8 +51,6 @@
     <div class="col-md-3"></div>
   </div>
 </div> <!-- closes container-fluid -->
-
-<!-- MOBILE NAVBAR -->
 
 <br>
 
@@ -234,13 +232,13 @@
         <!-- CHECKBOXES -->
         <div class="social-media-form">
           <input type="checkbox" id="fb" checked="checked" />
-          <label for="fb" class="facebook"><span></span>Facebook</label>
+          <label for="fb"><span></span><div class="facebook">Facebook</div></label>
           <input type="checkbox" id="tw" checked="checked" />
-          <label for="tw" class="twitter"><span></span>Twitter</label>
+          <label for="tw"><span></span><div class="twitter">Twitter</div></label>
           <input type="checkbox" id="fs" />
-          <label for="fs" class="foursquare"><span></span>Foursquare</label>
+          <label for="fs"><span></span><div class="foursquare">Foursquare</div></label>
           <input type="checkbox" id="g" />
-          <label for="g" class="google"><span></span>Google+</label>
+          <label for="g"><span></span><div class="google">Google+</div></label>
         </div>
 
         <!-- CONTACTS/CUSTOMERS -->
@@ -281,11 +279,13 @@
 
   </div> <!-- closes main-content -->
 </div> <!-- closes gradient -->
-<!-- FOOTER -->
-<div class="row footer hidden-sm hidden-xs">
-  <br>
-  <div class="container-fluid">
 
+<!-- FOOTER -->
+<div class="row footer">
+  <div class="container-fluid">
+    <a href="#"><p class="footer-txt">Tutorials</p></a>
+    <a href="#"><p class="footer-txt">Support</p></a>
+    <a href="#"><p class="footer-txt">Blog</p></a>
   </div>
 </div>
 </body>
