@@ -1,0 +1,22 @@
+.headersprite {
+    background-image: url(../images/header-spritesheet.png);
+    background-repeat: no-repeat;
+}
+
+.sprite-header-gear {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+
+.sprite-header-question {
+    width: 20px;
+    height: 20px;
+    background-position: -35px -5px;
+}
+
+.sprite-header-spacer {
+    width: 3px;
+    height: 30px;
+    background-position: -65px -5px;
+}

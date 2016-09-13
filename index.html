@@ -1,16 +1,293 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Dashboard</title>
+
+  <link rel="icon" type="image/gif" href="images/dashboard.gif">
+
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- SPRITES -->
+  <link href="css/icons-sprites.css" rel="stylesheet">
+  <link href="css/avatar-spritesheet.css" rel="stylesheet">    <link href="css/header-sprites.css" rel="stylesheet">
+
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 
 <body>
 
+<!-- HEADER -->
+<nav class="header container-fluid">
+  <div class="header container">
+    <div class="header">
+      <span class="logo">MINI of Raleigh</span>
+      <div class="headersprite sprite-header-spacer"></div>
+      <a href="#"><div class="headersprite sprite-header-question"></div></a>
+      <div class="headersprite sprite-header-spacer"></div>
+      <a href="#"><span class="headersprite sprite-header-gear"></span></a>
+    </div>
+  </div>
+
+  <!-- DESKTOP NAVBAR -->
+  <div class="row navbar hidden-xs">
+    <div class="col-md-3"></div>
+    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-dashboard"></div></a></div>
+    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-customers"></div></a></div>
+    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-messages"></div></a></div>
+    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-promotions"></div></a></div>
+    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-reports"></div></a></div>
+    <div class="col-md-1"><a href="#"><div class="iconsprite sprite-analytics"></div></a></div>
+    <div class="col-md-3"></div>
+  </div>
+</div> <!-- closes container-fluid -->
+
+<!-- MOBILE NAVBAR -->
+
+<br>
+
+<!-- MAIN BODY -->
+<div class="container">
+  <div class="row">
+    <div class="green-dashboard col-md-12">
+      <h1>Dashboard</h1>
+      <form>
+        <input type="text" class="search">
+        <input type="button" class="magnifyer">
+      </form>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div id="gradient">
+  <div class="main-content">
+
+    <!-- ANNOUNCEMENTS -->
+    <div id="announcements" class="row">
+      <div class="announcements-title col-lg-2 col-md-2 hidden-sm hidden-xs">
+        <h5>ANNOUNCEMENTS</h5>
+        <div class="thin_spacer"></div>
+      </div>
+      <div class="announcements-txt col-lg-9 col-md-9 hidden-sm hidden-xs">
+        <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+        <div class="thin_spacer"></div>
+      </div>
+      <div class="announcements-button col-lg-1 col-md-1 hidden-sm hidden-xs">
+      </div>
+    </div> <!-- closes announcements -->
+
+
+    <div class="row">
+      <!-- TASKS -->
+      <div class="tasks col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div id="tasks" class="row">
+          <div class="col-md-12">
+            <h1>Tasks</h1>
+            <a href="#"><img src="images/tasks_gear.png" class="tasks-gear"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <span><a href="#">
+              <div class="green-circle"><p>1</p></div>
+              <p class="tasks-txt">Welcome Contacts</p>
+              <div class="numbers-box-1">
+                <div class="avatarsprite sprite-avatar-small"></div>
+                <p class="tasks-box-txt">32</p>
+              </div>
+            </span>
+          </div>
+        </div> <!-- closes welcome contacts row -->
+        <div class="row">
+          <div class="col-md-12">
+            <span><a href="#">
+              <div class="green-circle"><p>2</p></div>
+              <p class="tasks-txt">Provide Responses</p>
+              <div class="numbers-box-1">
+                <div class="avatarsprite sprite-avatar-small"></div>
+                <p class="tasks-box-txt">36</p>
+              </div>
+            </span>
+          </div>
+        </div> <!-- closes provide responses row -->
+        <div class="row">
+          <div class="col-md-12">
+            <span><a href="#">
+              <div class="green-circle"><p>3</p></div>
+              <p class="tasks-txt">Review Activity</p>
+              <div class="numbers-box-1">
+                <div class="avatarsprite sprite-avatar-small"></div>
+                <p class="tasks-box-txt">36</p>
+              </div>
+            </span>
+          </div>
+        </div> <!-- closes review activity row -->
+        <div class="row">
+          <div class="col-md-12">
+            <span><a href="#">
+              <div class="green-circle"><p>4</p></div>
+              <p class="tasks-txt">Reach Out</p>
+              <div class="numbers-box-1">
+                <div class="avatarsprite sprite-avatar-small"></div>
+                <p class="tasks-box-txt">3</p>
+              </div>
+            </span>
+          </div>
+        </div> <!-- closes reach out row -->
+
+        <!-- RECOMMENDATIONS -->
+        <div class="row">
+          <div id="recommendations">
+            <div class="col-md-12 recommendations-title">
+              <h1>Recommendations</h1>
+            </div>
+          </div>
+        </div> <!-- closes recommendations-title row -->
+        <div class="row">
+          <div id="recommendations">
+            <div class="col-md-12 more-fans">
+              <h5>Article</h5>
+              <p>7 Steps to getting more Fans</p>
+            </div>
+          </div>
+        </div> <!-- closes more-fans row -->
+        <div class="row">
+          <div id="recommendations">
+            <div class="col-md-12 increase-traction">
+              <h5>Article</h5>
+              <p>Increase traction with more interactions</p>
+            </div>
+          </div>
+        </div> <!-- closes increase-traction row -->
+        <div class="row">
+          <div id="recommendations">
+            <div class="col-md-12 promotion">
+              <h5>Checklist</h5>
+              <p>Creating a promotion</p>
+            </div>
+          </div>
+        </div> <!-- closes promotion row -->
+        <div class="row">
+          <div id="recommendations">
+            <div class="col-md-12 share-more">
+              <h5>Tip</h5>
+              <p>Share More</p>
+            </div>
+          </div>
+        </div> <!-- closes share-more row -->
+      </div> <!-- closes tasks (left content) row -->
+
+
+      <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        <!-- ANALYTICS -->
+        <div class="row">
+          <h1 class="analytics-title">Analytics</h1>
+          <div class="row">
+            <div class="col-md-12 activity">
+              <p>ACTIVITY</p>
+              <!-- Split button -->
+              <div class="btn-group">
+                <button type="button" class="btn">6/28/11 - 7/21/11</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">7/21/11 - 8/21/11</a></li>
+                  <li><a href="#">8/21/11 - 9/21/11</a></li>
+                  <li><a href="#">9/21/11 - 10/21/11</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+              <img src="images/analytics_graph.png" class="analytics-graph">
+
+            </div> <!-- closes activity -->
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-md-12 col-sm-6 col-xs-6">
+                  <p>CHANNELS</p>
+                  <img src="images/analytics_channels.png" class="analytics-channels">
+                </div>
+                <div class="col-md-12 col-sm-6 col-xs-6">
+                  <p>REFERRALS</p>
+                  <img src="images/analytics_referrals.png" class="analytics-referrals">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- closes analytics -->
+
+        <!-- CHECKBOXES -->
+        <div class="social-media-form">
+          <input type="checkbox" id="fb" checked="checked" />
+          <label for="fb" class="facebook"><span></span>Facebook</label>
+          <input type="checkbox" id="tw" checked="checked" />
+          <label for="tw" class="twitter"><span></span>Twitter</label>
+          <input type="checkbox" id="fs" />
+          <label for="fs" class="foursquare"><span></span>Foursquare</label>
+          <input type="checkbox" id="g" />
+          <label for="g" class="google"><span></span>Google+</label>
+        </div>
+
+        <!-- CONTACTS/CUSTOMERS -->
+        <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
+        </div>
+
+        <!-- DID U KNOW -->
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+              <div id="did-you-know">
+                <a href="#"><img src="images/left_arrow.png" class="left-arrow"></a>
+                <div class="diduknow-box">
+                  <h5>DID YOU KNOW?</h5>
+                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis eusmod.</p>
+                </div>
+                <a href="#"><img src="images/right_arrow.png" class="right-arrow"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- closes right-content -->
+
+      <!-- BOTTOMS ADS -->
+      <div class="row">
+        <div class="bottom-ads col-md-12">
+          <div id="ads">
+            <a href="#"><img src="images/ad1.png" class="ad1"></a>
+            <a href="#"><img src="images/ad2.png" class="ad2"></a>
+            <a href="#"><img src="images/ad3.png" class="ad3"></a>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- closes main double row -->
+
+  </div> <!-- closes main-content -->
+</div> <!-- closes gradient -->
+<!-- FOOTER -->
+<div class="row footer hidden-sm hidden-xs">
+  <br>
+  <div class="container-fluid">
+
+  </div>
+</div>
 </body>
 
 

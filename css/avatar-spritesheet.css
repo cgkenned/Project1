@@ -1,0 +1,77 @@
+.avatarsprite {
+    background-image: url(../images/avatar-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-avatar-car {
+    width: 36px;
+    height: 36px;
+    background-position: -5px -5px;
+}
+
+.sprite-avatar-fb-color {
+    width: 16px;
+    height: 16px;
+    background-position: -51px -5px;
+}
+
+.sprite-avatar-fb-gray {
+    width: 16px;
+    height: 16px;
+    background-position: -77px -5px;
+}
+
+.sprite-avatar-green {
+    width: 77px;
+    height: 65px;
+    background-position: -51px -31px;
+}
+
+.sprite-avatar-linkedin-color {
+    width: 16px;
+    height: 16px;
+    background-position: -103px -5px;
+}
+
+.sprite-avatar-linkedin-gray {
+    width: 16px;
+    height: 16px;
+    background-position: -129px -5px;
+}
+
+.sprite-avatar-orange {
+    width: 78px;
+    height: 65px;
+    background-position: -155px -5px;
+}
+
+.sprite-avatar-small {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -80px;
+}
+
+.sprite-avatar-twitter-color {
+    width: 16px;
+    height: 16px;
+    background-position: -168px -80px;
+}
+
+.sprite-avatar-twitter-gray {
+    width: 16px;
+    height: 16px;
+    background-position: -194px -80px;
+}
+
+.sprite-avatar-youtube-color {
+    width: 16px;
+    height: 16px;
+    background-position: -35px -106px;
+}
+
+.sprite-avatar-youtube-gray {
+    width: 16px;
+    height: 16px;
+    background-position: -61px -106px;
+}
